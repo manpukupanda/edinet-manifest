@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "edinet-manifest", "edinet-manifest\edinet-manifest.csproj", "{19200B49-389E-4C01-9524-9994B5E29EE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "edinet-manifest-test", "edinet-manifest-test\edinet-manifest-test.csproj", "{A95F868D-663C-4AA2-BCF1-5C33C263CCBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19200B49-389E-4C01-9524-9994B5E29EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19200B49-389E-4C01-9524-9994B5E29EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19200B49-389E-4C01-9524-9994B5E29EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19200B49-389E-4C01-9524-9994B5E29EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A95F868D-663C-4AA2-BCF1-5C33C263CCBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95F868D-663C-4AA2-BCF1-5C33C263CCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A95F868D-663C-4AA2-BCF1-5C33C263CCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A95F868D-663C-4AA2-BCF1-5C33C263CCBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A867EB43-2246-489A-A1B0-C41DDACF8BC7}
+	EndGlobalSection
+EndGlobal
