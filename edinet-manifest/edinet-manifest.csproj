@@ -7,9 +7,10 @@
     <Nullable>enable</Nullable>
     <AssemblyName>Manpuku.Edinet.Manifest</AssemblyName>
     <Title>EDINET Manifest Parser</Title>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Authors>manpuku</Authors>
     <Company />
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <Description>Parses EDINET manifest XML files with explicit structural boundaries and semantic clarity, enabling responsible handling of financial disclosure metadata.
 EDINETの提出書類に含まれるmanifest XMLを構造的かつ意味的に明確な方法で解析するC#ライブラリです。金融開示メタデータの責任ある取り扱いを支援します。</Description>
     <Copyright>Copyright © 2025 manpuku. Distributed under the MIT License.</Copyright>
@@ -18,15 +19,11 @@ EDINETの提出書類に含まれるmanifest XMLを構造的かつ意味的に�
     <RepositoryUrl>https://github.com/manpukupanda/edinet-manifest</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>edinet;xbrl;manifest;financial-disclosure;parser;csharp;dto;immutable;semantic;structured-data</PackageTags>
-    <PackageReleaseNotes>Initial release (v0.0.1).  
-Provides a lightweight and structurally responsible parser for EDINET manifest XML files.  
-Focuses on semantic clarity, minimal dependencies, and explicit boundaries of responsibility.  
-This version is intended for testing and feedback prior to formal stabilization.
+    <PackageReleaseNotes>Added XML documentation for IntelliSense support.  
+Updated README with NuGet installation instructions.  
 
-初回リリース（v0.0.1）。  
-EDINETのマニフェストXMLファイルを対象に、構造的かつ責任範囲の明確なパーサーを提供します。  
-意味の明快さ、最小限の依存、責任の境界の明示を重視した設計です。  
-正式な安定版公開に向けたテストとフィードバックを目的としています。</PackageReleaseNotes>
+XMLコメントの追加によりIntelliSense対応。  
+READMEにNuGet取得方法を記載。  </PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 

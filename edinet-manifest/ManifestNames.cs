@@ -2,7 +2,7 @@
 
 namespace Manpuku.Edinet.Manifest;
 
-public static class ManifestNames
+internal static class ManifestNames
 {
 	public static readonly XNamespace ManifestNs = "http://disclosure.edinet-fsa.go.jp/2013/manifest";
 	public static readonly XNamespace XmlNs = "http://www.w3.org/XML/1998/namespace";

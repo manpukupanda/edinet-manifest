@@ -5,5 +5,5 @@
 /// </summary>
 public class ManifestParseException : Exception
 {
-	public ManifestParseException(string message) : base(message) { }
+	internal ManifestParseException(string message) : base(message) { }
 }

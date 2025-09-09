@@ -2,7 +2,7 @@
 
 ## プロジェクト概要（Overview）
 
-A lightweight C# parser for EDINET manifest XML files, designed with clear structural boundaries and semantic responsibility.
+A lightweight C# parser for EDINET manifest XML files, designed with clear structural boundaries and semantic responsibility.  
 このライブラリは、EDINETが提供するXBRLマニフェストファイル（`.xml`）を構造的にパースするための、軽量かつ責任範囲の明確なC#コンポーネントです。
 
 目的はシンプルです：
@@ -34,21 +34,12 @@ A lightweight C# parser for EDINET manifest XML files, designed with clear struc
 
 ## インストール方法（Installation）
 
-このライブラリは現在 GitHub 上で公開されており、NuGet パッケージとしての公開も予定されています。
-
-### 🔧 現時点での導入方法
-
-GitHub からクローンして、Visual Studio でビルド・参照してください：
+NuGet パッケージとしてインストールすることができます。
 
 ```bash
-git clone https://github.com/manpukupanda/edinet-manifest.git
+dotnet add package Manpuku.Edinet.Manifest
 ```
-
-プロジェクト内のライブラリを参照することで、すぐに使用可能です。
-
-### 📦 NuGet 公開予定について
-このライブラリは、今後 NuGet パッケージとして公開予定です。  
-公開時期やバージョン情報は、この README にて随時更新します。
+または、Visual StudioのNuGetパッケージマネージャで `Manpuku.Edinet.Manifest` と検索してください。
 
 ---
 
