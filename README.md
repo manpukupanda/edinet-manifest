@@ -2,6 +2,7 @@
 
 ## プロジェクト概要（Overview）
 
+A lightweight C# parser for EDINET manifest XML files, designed with clear structural boundaries and semantic responsibility.
 このライブラリは、EDINETが提供するXBRLマニフェストファイル（`.xml`）を構造的にパースするための、軽量かつ責任範囲の明確なC#コンポーネントです。
 
 目的はシンプルです：
