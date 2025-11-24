@@ -19,11 +19,8 @@ EDINETの提出書類に含まれるmanifest XMLを構造的かつ意味的に�
     <RepositoryUrl>https://github.com/manpukupanda/edinet-manifest</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>edinet;xbrl;manifest;financial-disclosure;parser;csharp;dto;immutable;semantic;structured-data</PackageTags>
-    <PackageReleaseNotes>Added XML documentation for IntelliSense support.  
-Updated README with NuGet installation instructions.  
-
-XMLコメントの追加によりIntelliSense対応。  
-READMEにNuGet取得方法を記載。  </PackageReleaseNotes>
+    <PackageReleaseNotes>Fixed minor bugs and optimized performance for improved stability.
+安定性向上のため、軽微なバグ修正と内部処理の調整を行いました。</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
