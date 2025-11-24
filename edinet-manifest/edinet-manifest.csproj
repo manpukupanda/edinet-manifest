@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
     <AssemblyName>Manpuku.Edinet.Manifest</AssemblyName>
     <Title>EDINET Manifest Parser</Title>
-    <Version>0.0.2</Version>
+    <Version>0.0.3</Version>
     <Authors>manpuku</Authors>
     <Company />
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -25,6 +25,10 @@ Updated README with NuGet installation instructions.
 XMLコメントの追加によりIntelliSense対応。  
 READMEにNuGet取得方法を記載。  </PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
   </PropertyGroup>
 
   <ItemGroup>
